@@ -1,0 +1,48 @@
+body {
+    margin:0; 
+}
+
+.container {
+    height:500px;
+}
+
+.child {
+    height:400px;
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px 0 ;
+    box-sizing: border-box;
+    background: skyblue;
+}
+
+.content {
+    width: 50%;
+    height: 330px;
+    margin: 0 auto;
+    padding:8px;
+    background: #fff;
+    border-radius:7px;
+}
+
+.image {
+    height: 50%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url(./images/image-qr-code.png);
+}
+
+.body {
+    padding: 0 20px;
+} 
+
+
+@media screen and (min-width: 768px) {
+    .child {
+        width: 900px
+    }
+
+    .content {
+        width: 300px
+    }
+}
